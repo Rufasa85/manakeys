@@ -1,3 +1,29 @@
 body {
     background:salmon
 }
+.flex {
+    min-height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joke-area {
+    width:80%;
+    border:1px solid black;
+    border-radius:50px 0;
+    height:50vh;
+    box-shadow: 10px 10px 5px 20px black;
+    background:honeydew;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joke-area > button {
+    align-self: stretch;
+}
+
+.hide {
+    
+}
