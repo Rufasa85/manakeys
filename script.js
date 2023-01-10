@@ -1,3 +1,4 @@
+
 const setupEl = document.querySelector("#setup");
 const punchlineEl = document.querySelector("#punchline");
 const showPunchEl = document.querySelector("#punchline");
@@ -10,3 +11,4 @@ showPunchBtn.addEventListener("click", function () {
     showPunchBtn.setAttribute("style", "display:none;");
     showNewBtn.setAttribute("style", "display:block;");
 });
+
